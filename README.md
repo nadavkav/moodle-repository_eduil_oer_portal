@@ -10,3 +10,5 @@ It Uses the HTML parsing library: PHP Simple HTML DOM Parser
 Any change in the portal html dom structure could break the search
 Hopefully, in the near future EDUIL will switch the some standard RESTful API
 that we can query the OER DB safely :-)
+
+Click to view a [Screen Preview](pix/screen-preview.png)
