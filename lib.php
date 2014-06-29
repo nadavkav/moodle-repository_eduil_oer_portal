@@ -170,6 +170,7 @@ class repository_eduil_oer_portal extends repository {
         }
         $strrequired = get_string('required');
         $mform->addElement('text', 'licensekey', get_string('licensekey', 'repository_eduil_oer_portal'), array('value'=>$licensekey,'size' => '40'));
+        $mform->setType('licensekey', PARAM_RAW);
         //$mform->addRule('licensekey', $strrequired, 'required', null, 'client');
     }
 

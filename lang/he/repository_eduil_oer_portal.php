@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,17 +16,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details
+ * Strings for component 'repository_eduil_oer_portal', language 'en', branch 'MOODLE_27_STABLE'
  *
- * @package    repository
- * @subpackage eduil_oer_portal
+ * @package    repository_eduil_oer_portal
  * @copyright  CC-BY-SA 4.0
  * @author     Nadav Kavalerchik <nadavkav@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$plugin->version   = 2014062900;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2011112900;        // Requires this Moodle version
-$plugin->component = 'repository_eduil_oer_portal'; // Full name of the plugin (used for diagnostics)
+$string['configplugin'] = 'הגדרות תוסף חיפוש במאגר חומרי הלמידה של משרד החינוך';
+$string['licensekey'] = 'מפתח שימוש';
+$string['pluginname_help'] = 'חיפוש במאגר עצמיי הלמידה הציבוריים של אוח / משרד החינוך המצוי ב: http://gadol.edu.gov.il/';
+$string['pluginname'] = 'מאגר עצמיי לימוד ציבוריים של אוח';
+$string['eduil_oer_portal:view'] = 'צפיה וחיפוש במאגר עצמיי הלמידה הציבוריים של אוח';
